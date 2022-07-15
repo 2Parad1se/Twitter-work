@@ -1,0 +1,61 @@
+.Post {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+    transition: all 0.4s;
+}
+.Post_text {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Post_text-cross::after {
+    border: 1px solid silver;
+}
+.Post_buttons {
+    width: 20%;
+
+}
+.Post_button {
+    margin-left: 5px;
+    padding: 5px;
+}
+.Post_buttons button {
+    background: none;
+    border: none;
+}
+
+.fa-heart{
+    width: 20px;
+    color: silver;
+    cursor: pointer;
+}
+.fa-heart-red {
+    color: red;
+}
+
+.fa-thumbtack{
+    width: 20px;
+    color: silver;
+    cursor: pointer;
+}
+
+.fa-thumbtack-active {
+    transform: rotate(90deg);
+    color: black;
+    
+}
+.fa-trash-can {
+    width: 20px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+.silver {
+    color: silver;
+}
